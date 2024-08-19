@@ -1,0 +1,168 @@
+html{
+    background-color: burlywood;
+}
+header{
+    background-image: url(./GWX_VandS_Categorypage_portable_audio_players_primary_tout_mobile_1534x1083.webp);
+    text-align: center;
+    border: groove lightskyblue;
+    color:aliceblue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.dev{
+    display:flex;
+    padding:10px;
+    border:3px solid lightskyblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url(./GWX_VandS_Categorypage_portable_audio_players_primary_tout_mobile_1534x1083.webp);
+}
+.songs1{
+    padding:10px;
+    border: 5px groove red;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position:relative;
+    left:370px;
+}
+.songs2{
+    padding:10px;
+    padding-left: 10px;
+    border:5px groove red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    left:420px;
+}
+h3{
+    font-family: cursive;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-align: center;
+    background-color: darkred;
+
+}
+audio{
+    background-clip: padding-box;
+}
+
+#song{
+    background-color: blanchedalmond;
+    border:5px solid;
+    margin-bottom: 10px;
+}
+.hide{
+    background-image: url(./dryfruits.jpg);
+    border:3px skyblue solid ;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    padding:10px;
+    background-color: coral;
+    margin-left:250px;
+    margin-right: 250px;
+    border:5px groove blueviolet;
+}
+.menu{
+    display:flex;
+}
+ul{
+    position:relative;
+    word-spacing: ;
+}
+h4{
+    text-decoration: line-through;
+    padding:10px;
+    background-color: bisque;
+    border: 3px solid;
+}
+h4:hover{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:brown;
+
+}
+#fruit1{
+    position: relative;
+    left:100px;
+    padding:20px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fruit2{
+    position: relative;
+    left: 250px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fruit3{
+    position: relative;
+    left: 400px;
+    padding:20px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li:nth-child(2n){
+    list-style:georgian;
+    color:cyan;
+    background-color:cornflowerblue;
+    margin: 5%;
+    border: 2px solid black;
+}
+ul li:nth-child(2n-1){
+    list-style-type: decimal;
+    color: red;
+    background-color: aqua;
+    margin: 5%;
+    border: 2px solid black;
+}
+#fruit1 li:hover{
+    text-align: end;
+    font-size: 25px;
+    width: 200px;
+}
+#fruit2 li:hover{
+    text-decoration: underline;
+    font-style:oblique;
+    font-size: 25px;
+    width: 200px;
+    text-transform: capitalize;
+    text-align: end;
+}
+#fruit3 li:hover{
+    text-align: end;
+    font-size: 25px;
+    width: 200px;
+}
+#fruit1 li:nth-last-child(1){
+    background-color: rgb(216, 50, 78);
+    color: aqua;
+}
+.menu{
+    display: flex;
+    padding:10px;
+    border:5px solid violet;
+    margin:100px;
+}
+#fruit2 li:nth-last-child(1){
+    background-color: rgb(216, 50, 78);
+    color: aqua;
+}
+#fruit3 li:nth-last-child(1){
+    background-color: rgb(216, 50, 78);
+    color: aqua;
+}
+footer{
+    background-color: black;
+    color:aliceblue;
+    text-align:center;
+}
